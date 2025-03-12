@@ -6,6 +6,8 @@ namespace WinFormsApp1
         public Form1()
         {
             InitializeComponent();
+            Word1.Text = Properties.Settings.Default.slovo1.ToString();
+            Word2.Text = Properties.Settings.Default.slovo2.ToString();
             Word1.KeyDown += new KeyEventHandler(TextBox_KeyDown);
             Word2.KeyDown += new KeyEventHandler(TextBox_KeyDown);
             button1.KeyDown += new KeyEventHandler(TextBox_KeyDown);
@@ -40,6 +42,7 @@ namespace WinFormsApp1
         {
             Word1.Text = null;
             Word2.Text = null;
+            label3.Text = null;
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -58,6 +61,8 @@ namespace WinFormsApp1
             }
             else
             {
+                label3.Visible = true;
+                label3.Text = "В одном поле не может быть введено несколько слов";
                 return;
             }
         }

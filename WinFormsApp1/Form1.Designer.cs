@@ -40,14 +40,14 @@
             // 
             // Word1
             // 
-            Word1.Location = new Point(33, 56);
+            Word1.Location = new Point(183, 56);
             Word1.Name = "Word1";
             Word1.Size = new Size(139, 27);
             Word1.TabIndex = 0;
             // 
             // Word2
             // 
-            Word2.Location = new Point(33, 115);
+            Word2.Location = new Point(183, 115);
             Word2.Name = "Word2";
             Word2.Size = new Size(139, 27);
             Word2.TabIndex = 1;
@@ -68,14 +68,14 @@
             button2.Name = "button2";
             button2.Size = new Size(144, 29);
             button2.TabIndex = 3;
-            button2.Text = "Очистить ввод";
+            button2.Text = "Очистить поля";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click_1;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(195, 59);
+            label1.Location = new Point(12, 59);
             label1.Name = "label1";
             label1.Size = new Size(165, 20);
             label1.TabIndex = 4;
@@ -84,7 +84,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(195, 118);
+            label2.Location = new Point(14, 118);
             label2.Name = "label2";
             label2.Size = new Size(163, 20);
             label2.TabIndex = 5;
@@ -102,7 +102,7 @@
             // 
             // label4
             // 
-            label4.Location = new Point(443, 56);
+            label4.Location = new Point(350, 56);
             label4.Name = "label4";
             label4.Size = new Size(200, 168);
             label4.TabIndex = 7;
@@ -113,7 +113,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(652, 373);
+            ClientSize = new Size(562, 323);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
